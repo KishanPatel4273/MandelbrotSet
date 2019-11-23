@@ -26,7 +26,6 @@ public class Display extends Canvas implements Runnable {
 	public static final int HEIGHT = 1000;
 	public static final String TITLE = "MandelbortSet";
 	
-	
 	private Thread thread;
 	private BufferedImage img;
 	private boolean running = false;
